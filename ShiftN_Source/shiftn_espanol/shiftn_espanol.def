@@ -1,0 +1,5 @@
+; shiftn_espanol.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "shiftn_espanol"
+
+EXPORTS

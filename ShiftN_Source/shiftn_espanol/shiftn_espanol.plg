@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: shiftn_espanol - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/shiftn_espanol.res" /d "NDEBUG" /d "_AFXDLL" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_ESP" /d "AFX_TARG_NEU" "H:\ShiftN_34\shiftn_espanol\shiftn_espanol.rc"" 
+Erstellen der temporären Datei  "C:\TEMP\RSPAA.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/shiftn_espanol.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\ShiftN_28\shiftn_espanol\shiftn_espanol.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPAA.tmp" 
+Erstellen der temporären Datei  "C:\TEMP\RSPAB.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/shiftn_espanol.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\ShiftN_28\shiftn_espanol\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPAB.tmp" 
+Erstellen der temporären Datei  "C:\TEMP\RSPAC.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/shiftn_espanol.pdb" /machine:I386 /def:".\shiftn_espanol.def" /out:"Release/shiftn_espanol.dll" /implib:"Release/shiftn_espanol.lib" /NOENTRY 
+.\Release\shiftn_espanol.obj
+.\Release\StdAfx.obj
+.\Release\shiftn_espanol.res
+]
+Erstellen der Befehlzeile "link.exe @C:\TEMP\RSPAC.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+shiftn_espanol.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release/shiftn_espanol.lib und Objekt Release/shiftn_espanol.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+shiftn_espanol.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

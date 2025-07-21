@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: shiftn_deutsch - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/shiftn_deutsch.res" /d "NDEBUG" /d "_AFXDLL" /d "AFX_RESOURCE_DLL" /d "AFX_TARG_DEU" /d "AFX_TARG_NEU" "H:\ShiftN_28\shiftn_deutsch\shiftn_deutsch.rc"" 
+Erstellen der temporären Datei  "C:\TEMP\RSPA1.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/shiftn_deutsch.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\ShiftN_28\shiftn_deutsch\shiftn_deutsch.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA1.tmp" 
+Erstellen der temporären Datei  "C:\TEMP\RSPA2.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/shiftn_deutsch.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\ShiftN_28\shiftn_deutsch\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSPA2.tmp" 
+Erstellen der temporären Datei  "C:\TEMP\RSPA3.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/shiftn_deutsch.pdb" /machine:I386 /def:".\shiftn_deutsch.def" /out:"Release/shiftn_deutsch.dll" /implib:"Release/shiftn_deutsch.lib" /NOENTRY 
+.\Release\shiftn_deutsch.obj
+.\Release\StdAfx.obj
+.\Release\shiftn_deutsch.res
+]
+Erstellen der Befehlzeile "link.exe @C:\TEMP\RSPA3.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+shiftn_deutsch.cpp
+Linker-Vorgang läuft...
+   Bibliothek Release/shiftn_deutsch.lib und Objekt Release/shiftn_deutsch.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+shiftn_deutsch.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

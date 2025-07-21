@@ -1,0 +1,5 @@
+; shiftn_deutsch.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "shiftn_deutsch"
+
+EXPORTS
