@@ -1,0 +1,522 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file libjpeg.lib
+
+File Type: LIBRARY
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+   Linker Directives
+   -----------------
+   /include:__forceCRTManifestCUR
+   /manifestdependency:"type='win32'
+   name='Microsoft.VC90.CRT'
+   version='9.0.30729.1'
+   processorArchitecture='x86'
+   publicKeyToken='1fc8b3b9a1e18e3b'"
+   /DEFAULTLIB:"MSVCRT"
+   /DEFAULTLIB:"OLDNAMES"
+
+  Summary
+
+        129E .data
+        14E0 .debug$F
+        1590 .debug$S
+        2812 .drectve
+         AE2 .rdata
+       15384 .text

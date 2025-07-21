@@ -1,0 +1,97 @@
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcapimin.c
+jcapimin.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcapistd.c
+jcapistd.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jctrans.c
+jctrans.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcparam.c
+jcparam.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdatadst.c
+jdatadst.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcinit.c
+jcinit.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcmaster.c
+jcmaster.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcmarker.c
+jcmarker.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcmainct.c
+jcmainct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcprepct.c
+jcprepct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jccoefct.c
+jccoefct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jccolor.c
+jccolor.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcsample.c
+jcsample.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jchuff.c
+jchuff.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcphuff.c
+jcphuff.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcdctmgr.c
+jcdctmgr.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jfdctfst.c
+jfdctfst.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jfdctflt.c
+jfdctflt.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jfdctint.c
+jfdctint.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdapimin.c
+jdapimin.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdapistd.c
+jdapistd.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdtrans.c
+jdtrans.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdatasrc.c
+jdatasrc.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdmaster.c
+jdmaster.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdinput.c
+jdinput.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdmarker.c
+jdmarker.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdhuff.c
+jdhuff.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdphuff.c
+jdphuff.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdmainct.c
+jdmainct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdcoefct.c
+jdcoefct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdpostct.c
+jdpostct.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jddctmgr.c
+jddctmgr.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jidctfst.c
+jidctfst.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jidctflt.c
+jidctflt.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jidctint.c
+jidctint.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jidctred.c
+jidctred.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdsample.c
+jdsample.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdcolor.c
+jdcolor.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jquant1.c
+jquant1.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jquant2.c
+jquant2.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jdmerge.c
+jdmerge.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jcomapi.c
+jcomapi.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jutils.c
+jutils.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jerror.c
+jerror.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jmemmgr.c
+jmemmgr.c
+	cl -c -W3 -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -nologo -D_X86_=1 -D_WINNT -D_WIN32_WINNT=0x0400 -D_WIN32_IE=0x0300 -DWINVER=0x0400 -Ox -DWIN32  -D_WIN32 -I. /MD /GR /GX jmemnobs.c
+jmemnobs.c
+	del libjpeg.lib
+	lib -out:libjpeg.lib  jcapimin.obj jcapistd.obj jctrans.obj jcparam.obj jdatadst.obj  jcinit.obj jcmaster.obj jcmarker.obj jcmainct.obj jcprepct.obj  jccoefct.obj jccolor.obj jcsample.obj jchuff.obj jcphuff.obj  jcdctmgr.obj jfdctfst.obj jfdctflt.obj jfdctint.obj jdapimin.obj jdapistd.obj jdtrans.obj jdatasrc.obj  jdmaster.obj jdinput.obj jdmarker.obj jdhuff.obj jdphuff.obj  jdmainct.obj jdcoefct.obj jdpostct.obj jddctmgr.obj jidctfst.obj  jidctflt.obj jidctint.obj jidctred.obj jdsample.obj jdcolor.obj  jquant1.obj jquant2.obj jdmerge.obj jcomapi.obj jutils.obj jerror.obj jmemmgr.obj jmemnobs.obj
+Microsoft (R) Library Manager Version 6.00.8447
+Copyright (C) Microsoft Corp 1992-1998. All rights reserved.
+
