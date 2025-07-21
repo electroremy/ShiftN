@@ -1,0 +1,2373 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\idr_main.ico"
+IDR_SHIFTNTYPE          ICON                    "res\\idr_shif.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,1
+ PRODUCTVERSION 4,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "Marcus Hebel"
+            VALUE "FileDescription", "ShiftN"
+            VALUE "FileVersion", "4, 0, 0, 1"
+            VALUE "InternalName", "ShiftN"
+            VALUE "LegalCopyright", "Marcus Hebel 1998-2010"
+            VALUE "OriginalFilename", "ShiftN.EXE"
+            VALUE "ProductName", "ShiftN"
+            VALUE "ProductVersion", "4, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASH              BITMAP                  "Splsh16.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_APP_ABOUT,           VIRTKEY, SHIFT, NOINVERT
+    "C",            ID_CTRLC,               VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_CTRLV,               VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_DELMH,               VIRTKEY, NOINVERT
+    VK_F1,          ID_HELPMH,              VIRTKEY, NOINVERT
+    VK_PRIOR,       ID_MHUP,                VIRTKEY, NOINVERT
+    VK_NEXT,        ID_MHDOWN,              VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ShiftN\n\nShiftN\n\n\nShiftN.Document\nShiftN Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShiftN"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "MH"
+    ID_INDICATOR_CAPS       "MH"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "MH"
+    ID_INDICATOR_OVR        "MH"
+    ID_INDICATOR_REC        "MH"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "Open\nOpen"
+    ID_FILE_CLOSE           "Close\nClose"
+    ID_FILE_SAVE            "Save\nSave"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Info\nInfo"
+    ID_APP_EXIT             "Exit\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_LANGUAGE     "Select language\nLanguage"
+    ID_ANWENDEN_KORREKTURANPASSEN "Adjust correction\nAdjust"
+    ID_DATEI_SPEICHERNUNTER "Save as...\nSave"
+    MH_Re                   "Re-optimize\nRe-optimize"
+    ID_GITTER               "Show grid\nGrid"
+    ID_SAVE_CLOSE           "Save and exit\nSave and exit"
+    ID_FILE_SAVEANDEXIT     "Save and exit\nSave and exit"
+    ID_ACKNOW               "Acknowledgments\nAcknowledgments"
+    ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN 
+                            "Configure button ""Save""\nButton ""Save"""
+    ID_CTRLC                "Copy\nCopy"
+    ID_CTRLV                "Paste\nPaste"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_HELPMH               "Help\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open"
+    ID_FILE_MRU_FILE2       "Open"
+    ID_FILE_MRU_FILE3       "Open"
+    ID_FILE_MRU_FILE4       "Open"
+    ID_FILE_MRU_FILE5       "Open"
+    ID_FILE_MRU_FILE6       "Open"
+    ID_FILE_MRU_FILE7       "Open"
+    ID_FILE_MRU_FILE8       "Open"
+    ID_FILE_MRU_FILE9       "Open"
+    ID_FILE_MRU_FILE10      "Open"
+    ID_FILE_MRU_FILE11      "Open"
+    ID_FILE_MRU_FILE12      "Open"
+    ID_FILE_MRU_FILE13      "Open"
+    ID_FILE_MRU_FILE14      "Open"
+    ID_FILE_MRU_FILE15      "Open"
+    ID_FILE_MRU_FILE16      "Open"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Status bar\nStatus bar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Resize window"
+    AFX_IDS_SCMOVE          "Move window"
+    AFX_IDS_SCMINIMIZE      "Minimize window"
+    AFX_IDS_SCMAXIMIZE      "Maximize window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore window"
+    AFX_IDS_SCTASKLIST      "Activate tasklist"
+END
+
+STRINGTABLE 
+BEGIN
+    MH_SAVE                 "Save\nSave"
+    MH_LOAD                 "Open\nOpen"
+    MH_PARAM                "Parameter\nParameter"
+    MH_Go                   "Automatic correction\nAutomatic"
+    MH_BATCH                "Batch processing\nBatch"
+    ID_DARSTELLUNG          "Type of output\nOutput"
+    MH_DARST                "Type of output\nOutput"
+END
+
+STRINGTABLE 
+BEGIN
+    CG_ID_VIEW_MYDIALOGBAR  "Buttons\nButtons"
+    CG_IDS_PROGRESS_CAPTION "ShiftN - Progress"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy\nCopy"
+    ID_EDIT_PASTE           "Paste\nPaste"
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Archivo"
+    BEGIN
+        MENUITEM "Abrir",                       MH_LOAD
+        MENUITEM "Guardar resultados",          MH_SAVE
+        MENUITEM "Guardar como...",             ID_DATEI_SPEICHERNUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Procesamientos por lotes",    MH_BATCH
+        MENUITEM SEPARATOR
+        MENUITEM "Guardar y salir",             ID_SAVE_CLOSE
+        MENUITEM "Salir",                       ID_APP_EXIT
+    END
+    POPUP "Edición"
+    BEGIN
+        MENUITEM "Copiar",                      ID_CTRLC
+        MENUITEM "Pegar",                       ID_CTRLV
+    END
+    POPUP "Ver"
+    BEGIN
+        MENUITEM "Botones",                     CG_ID_VIEW_MYDIALOGBAR
+        MENUITEM "Mostrar rejilla",             ID_GITTER
+        MENUITEM "Barra de Estado",             ID_VIEW_STATUS_BAR
+    END
+    POPUP "Opciones"
+    BEGIN
+        MENUITEM "Parámetros",                  MH_PARAM
+        MENUITEM "Tipo de salida",              MH_DARST
+        MENUITEM "Idioma",                      ID_OPTIONS_LANGUAGE
+        MENUITEM "Botón ""Guardar""",           ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN
+    END
+    POPUP "Comandos"
+    BEGIN
+        MENUITEM "Corrección Automática",       MH_Go
+        MENUITEM "Re-optimizar",                MH_Re
+        MENUITEM "Adjustar corrección",         ID_ANWENDEN_KORREKTURANPASSEN
+    END
+    POPUP "?"
+    BEGIN
+        MENUITEM "Ayuda",                       ID_HELPMH
+        MENUITEM SEPARATOR
+        MENUITEM "Reconocimientos",             ID_ACKNOW
+        MENUITEM "Acerca de...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG10 DIALOGEX 0, 0, 204, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Idioma"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CONTROL         "Alemán",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,14,106,10
+    CONTROL         "Inglés",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,14,28,106,12
+    CONTROL         "Francés",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,14,44,106,12
+    CONTROL         "Español",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,14,60,106,12
+    CTEXT           "Se requiere reiniciar para aplicar cambios",IDC_STATIC,7,84,190,18,SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 302, 121
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acera de ShiftN"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,107
+    LTEXT           "ShiftN 4.0 se publica bajo la licencia GNU Lesser General Public License (LGPL) versión 3. Se provee ""tal como es"", sin garantía de ningún tipo explícita o implícita.",IDC_STATIC,52,65,155,40,0,WS_EX_TRANSPARENT
+    LTEXT           "ShiftN Versión 4.0 (VS12)\nMarcus Hebel 1998-2010\nmhebel@gmx.de\nhttp://www.marcus-hebel.de",IDC_STATIC,52,23,155,38,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG1 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mensaje"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Ha ocurrido un error al tratar de leer el archivo.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mensaje"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Nada que guardar.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mensaje"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "No hay archivo cargado.",IDC_STATIC,25,22,185,26
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 317, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tipo de salida"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,250,24,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,250,44,50,14
+    GROUPBOX        "",IDC_STATIC,10,6,227,170
+    CONTROL         "Guardar JPEG",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,25,60,10
+    CONTROL         "Guardar BMP",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,39,180,10
+    CONTROL         "Guardar TIFF",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,53,180,10
+    CONTROL         "Recortar imágenes automáticamente",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,67,180,10
+    CONTROL         "Enfocar imágenes",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,109,75,10
+    CONTROL         "Remuestreado Bicúbico",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,81,180,10
+    EDITTEXT        IDC_EDIT3,184,107,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,184,23,41,15,ES_AUTOHSCROLL
+    LTEXT           "Calidad:",IDC_STATIC,133,25,45,10,0,WS_EX_RIGHT
+    LTEXT           "Parámetro:",IDC_STATIC,133,109,45,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT6,25,147,41,15,ES_AUTOHSCROLL
+    LTEXT           "Sufijo añadido al nombre de archivo.\nSi está vacío, el nombre original será sobrescrito.",IDC_STATIC,73,146,158,23
+    CONTROL         "Usar fecha/hora EXIF",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,95,110,10
+    CONTROL         "Color de fondo",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,123,75,10
+    EDITTEXT        IDC_EDIT9,184,123,41,15,ES_AUTOHSCROLL
+    LTEXT           "Parámetro:",IDC_STATIC,133,123,45,10,0,WS_EX_RIGHT
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 335, 249
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parámetros"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,272,25,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,272,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,251,235
+    EDITTEXT        IDC_EDIT2,177,41,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Contraste de línea mínimo",IDC_STATIC,60,41,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT6,177,20,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Largo de línea mínimo (0: Selección Automática)",IDC_STATIC,16,20,154,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT9,177,62,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Máxima desviación tangencial [°]",IDC_STATIC,60,62,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT11,177,83,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Cantidad de corrección [%]",IDC_STATIC,60,83,110,15,SS_CENTERIMAGE
+    CONTROL         "Intentar corregir rotaciones automáticamente  ",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,42,194,206,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT12,177,125,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Distorsión Radial",IDC_STATIC,59,125,110,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Resetear",IDC_BUTTON1,272,125,50,15
+    EDITTEXT        IDC_EDIT13,177,146,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Distancia Focal (equivalente 35mm) [mm]",IDC_STATIC,19,146,150,15,SS_CENTERIMAGE
+    CONTROL         "Depender de etiqueta de orientación EXIF  ",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,210,208,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT14,177,104,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Parámetro para resolución horizontal",IDC_STATIC,18,104,151,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT15,177,167,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Parámetro de Resolución",IDC_STATIC,19,167,150,15,SS_CENTERIMAGE
+    CONTROL         "Procesamientos por lotes  ",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,226,208,10,WS_EX_RIGHT
+END
+
+IDD_DIALOG8 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mensaje"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "El resultado se ha guardado.",IDC_STATIC,25,22,185,30
+END
+
+CG_IDD_MYDIALOGBAR DIALOG  0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Corrección Automática",MH_Go,105,3,93,13
+    PUSHBUTTON      "Ajustar corrección",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimizar",MH_Re,203,3,93,13
+    PUSHBUTTON      "Guardar y salir",ID_SAVE_CLOSE,399,3,93,13
+    PUSHBUTTON      "Abrir",MH_LOAD,7,3,93,13
+END
+
+CG_IDD_PROGRESS DIALOG  0, 0, 187, 37
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progreso1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,16,13,154,13
+END
+
+IDD_DIALOG12 DIALOGEX 0, 0, 301, 186
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reconocimientos"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,26,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    GROUPBOX        "",IDC_STATIC,7,7,215,172
+    LTEXT           "Este software está basado parcialmente en el trabajo del grupo JPEG independiente (JPEG library).",IDC_STATIC,54,16,155,25
+    LTEXT           "La detección de Línea está basado en: J. Brian Burns, Allen R. Hanson, Edward M. Riseman: ""Extracting Straight Lines"", IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. PAMI-8, No. 4, July 1986.",IDC_STATIC,54,75,155,45
+    LTEXT           "Gracias a Valentín Sanz por traducir el archivo de ayuda.",IDC_STATIC,54,153,155,19
+    LTEXT           "ShiftN incorpora las bibliotecas ""libtiff"" y ""zlib"" para el procesamiento y manipulación de imágenes TIFF.",IDC_STATIC,54,45,155,26
+    LTEXT           "Gratitud especial a Matthias Wandel por hacer disponibles lor recursos jhead-sources available (manipulación de EXIF).",IDC_STATIC,54,124,155,25
+END
+
+IDD_DIALOG11 DIALOGEX 0, 0, 340, 220
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ajustar corrección"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,196,228,14
+    RTEXT           "Descentrado",IDC_STATIC,13,21,52,15
+    RTEXT           "Rotación [°]",IDC_STATIC,13,57,52,15
+    GROUPBOX        "Automático",IDC_STATIC,7,7,326,83
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,18,197,17
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,54,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,38,21,12
+    CTEXT           "0",IDC_STATIC,164,38,23,12
+    CTEXT           "1.6",IDC_STATIC,252,38,25,12
+    CTEXT           "-8",IDC_STATIC,74,74,21,12
+    CTEXT           "0",IDC_STATIC,164,74,23,12
+    CTEXT           "8",IDC_STATIC,252,74,25,12
+    RTEXT           "Distorsión",IDC_STATIC,12,118,52,15
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,115,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,135,21,12
+    CTEXT           "0",IDC_STATIC,164,135,23,12
+    CTEXT           "1.6",IDC_STATIC,252,135,25,12
+    GROUPBOX        "No-automático",IDC_STATIC,7,96,326,91
+    EDITTEXT        IDC_EDIT1,277,22,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,277,58,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,277,119,39,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Resetear",IDC_BUTTON1,253,196,69,14
+    RTEXT           "Resolución\nhorizontal",IDC_STATIC,12,155,52,15
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,152,197,17
+    CTEXT           "-5.0",IDC_STATIC,74,171,21,12
+    CTEXT           "0",IDC_STATIC,164,171,23,12
+    CTEXT           "5.0",IDC_STATIC,252,171,25,12
+    EDITTEXT        IDC_EDIT4,278,155,39,14,ES_AUTOHSCROLL
+END
+
+CG_IDD_MYDIALOGBAR_SAVE DIALOGEX 0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Corrección Automática",MH_Go,105,3,93,13
+    PUSHBUTTON      "Ajustar corrección",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimizar",MH_Re,203,3,93,13
+    PUSHBUTTON      "Guardar",MH_SAVE,399,3,93,13
+    PUSHBUTTON      "Abrir",MH_LOAD,7,3,93,13
+END
+
+IDD_DIALOG13 DIALOG  0, 0, 204, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Botón ""Guardar"""
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CTEXT           "Se requiere reiniciar para aplicar cambios",IDC_STATIC,7,49,190,18,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "Botón ""Guardar y Salir""",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,29,161,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    CG_IDD_MYDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    CG_IDD_MYDIALOGBAR_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ShiftN\n\nShiftN\n\n\nShiftN.Document\nShiftN Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShiftN"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "MH"
+    ID_INDICATOR_CAPS       "MH"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "MH"
+    ID_INDICATOR_OVR        "MH"
+    ID_INDICATOR_REC        "MH"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "Abrir\nAbrir"
+    ID_FILE_CLOSE           "Cerrar\nCerrar"
+    ID_FILE_SAVE            "Guardar\nGuardar"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Info\nInfo"
+    ID_APP_EXIT             "Salir\nSalir"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Abrir"
+    ID_FILE_MRU_FILE2       "Abrir"
+    ID_FILE_MRU_FILE3       "Abrir"
+    ID_FILE_MRU_FILE4       "Abrir"
+    ID_FILE_MRU_FILE5       "Abrir"
+    ID_FILE_MRU_FILE6       "Abrir"
+    ID_FILE_MRU_FILE7       "Abrir"
+    ID_FILE_MRU_FILE8       "Abrir"
+    ID_FILE_MRU_FILE9       "Abrir"
+    ID_FILE_MRU_FILE10      "Abrir"
+    ID_FILE_MRU_FILE11      "Abrir"
+    ID_FILE_MRU_FILE12      "Abrir"
+    ID_FILE_MRU_FILE13      "Abrir"
+    ID_FILE_MRU_FILE14      "Abrir"
+    ID_FILE_MRU_FILE15      "Abrir"
+    ID_FILE_MRU_FILE16      "Abrir"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Barra de Estado\nBarra de Estado"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Redimensionar Ventana"
+    AFX_IDS_SCMOVE          "Mover Ventana"
+    AFX_IDS_SCMINIMIZE      "Minimizar Ventana"
+    AFX_IDS_SCMAXIMIZE      "Maximizar Ventana"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaurar Ventana"
+    AFX_IDS_SCTASKLIST      "Activar lista de tareas"
+END
+
+STRINGTABLE 
+BEGIN
+    MH_SAVE                 "Guardar\nGuardar"
+    MH_LOAD                 "Abrir\nAbrir"
+    MH_PARAM                "Parámetro\nParámetro"
+    MH_Go                   "Corrección Automática corrección\nAutomática"
+    MH_BATCH                "Procesamiento por lotes\nLotes"
+    ID_DARSTELLUNG          "Tipo de salida\nSalida"
+    MH_DARST                "Tipo de salida\nSalida"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_LANGUAGE     "Seleccionar Idioma\nIdioma"
+    ID_ANWENDEN_KORREKTURANPASSEN "Adjustar corrección\nAdjustar"
+    ID_DATEI_SPEICHERNUNTER "Guardar como...\nGuardar"
+    MH_Re                   "Re-optimizar\nRe-optimizar"
+    ID_GITTER               "Mostrar Rejilla\nRejilla"
+    ID_SAVE_CLOSE           "Guardar y salir\nGuardar y salir"
+    ID_FILE_SAVEANDEXIT     "Guardar y salir\nGuardar y salir"
+    ID_ACKNOW               "Reconocimientos\nReconocimientos"
+    ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN 
+                            "Configurar botón ""Guardar""\nBotón ""Guardar"""
+    ID_CTRLC                "Copiar\nCopiar"
+    ID_CTRLV                "Pegar\nPegar"
+END
+
+STRINGTABLE 
+BEGIN
+    CG_ID_VIEW_MYDIALOGBAR  "Botones\nBotones"
+    CG_IDS_PROGRESS_CAPTION "Progreso"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_COPY            "Copiar\nCopiar"
+    ID_EDIT_PASTE           "Pegar\nPegar"
+END
+
+#endif    // Spanish (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Fichier"
+    BEGIN
+        MENUITEM "Ouvrir",                      MH_LOAD
+        MENUITEM "Enregistrer",                 MH_SAVE
+        MENUITEM "Enregistrer sous...",         ID_DATEI_SPEICHERNUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Par Lot",                     MH_BATCH
+        MENUITEM SEPARATOR
+        MENUITEM "Enregistrer et Sortir",       ID_SAVE_CLOSE
+        MENUITEM "Quitter",                     ID_APP_EXIT
+    END
+    POPUP "Edition"
+    BEGIN
+        MENUITEM "Copier",                      ID_CTRLC
+        MENUITEM "Coller",                      ID_CTRLV
+    END
+    POPUP "Affichage"
+    BEGIN
+        MENUITEM "Boutons",                     CG_ID_VIEW_MYDIALOGBAR
+        MENUITEM "Afficher la grille",          ID_GITTER
+        MENUITEM "Barre d'état",                ID_VIEW_STATUS_BAR
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Paramètres",                  MH_PARAM
+        MENUITEM "Type de sortie",              MH_DARST
+        MENUITEM "Langue",                      ID_OPTIONS_LANGUAGE
+        MENUITEM "Bouton ""Enregistrer""",      ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN
+    END
+    POPUP "Exécuter"
+    BEGIN
+        MENUITEM "Correction automatique",      MH_Go
+        MENUITEM "Re-optimiser",                MH_Re
+        MENUITEM "Règler la correction",        ID_ANWENDEN_KORREKTURANPASSEN
+    END
+    POPUP "?"
+    BEGIN
+        MENUITEM "Aide",                        ID_HELPMH
+        MENUITEM SEPARATOR
+        MENUITEM "Crédits",                     ID_ACKNOW
+        MENUITEM "A propos de ...",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG10 DIALOGEX 0, 0, 204, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Langue"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CONTROL         "Allemande",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,14,106,10
+    CONTROL         "Anglaise",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,14,28,106,12
+    CONTROL         "Française",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,14,44,106,12
+    CONTROL         "Espagnol",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,14,60,106,12
+    CTEXT           "Redémarrer pour prendre en compte les modifications",IDC_STATIC,7,84,190,18,SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 302, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de ShiftN"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,102
+    LTEXT           "ShiftN 4.0 est distribué sous la licence GNU Lesser General Public License (LGPL) version 3. Il est fournit ""tel-quel"", sans garantie d'aucune sorte.",IDC_STATIC,52,65,155,36,0,WS_EX_TRANSPARENT
+    LTEXT           "ShiftN Version 4.0 (VS12)\nMarcus Hebel 1998-2010\nmhebel@gmx.de\nhttp://www.marcus-hebel.de",IDC_STATIC,52,23,155,38,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG1 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Une erreur s'est produite à l'ouverture du fichier.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Rien à enregistrer.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Aucun fichier chargé.",IDC_STATIC,25,22,185,26
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 302, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Type de sortie"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,235,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,169
+    CONTROL         "Enregistrer en JPEG",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,26,90,10
+    CONTROL         "Enregistrer en BMP",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,40,180,10
+    CONTROL         "Enregistrer en TIFF",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,54,180,10
+    CONTROL         "Recadrer automatiquement",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,68,180,10
+    CONTROL         "Augmenter la netteté",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,110,95,10
+    CONTROL         "Ré-échantillonnage Bicubique",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,82,180,10
+    EDITTEXT        IDC_EDIT3,172,108,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,172,24,41,15,ES_AUTOHSCROLL
+    LTEXT           "Qualité:",IDC_STATIC,121,26,45,10,0,WS_EX_RIGHT
+    LTEXT           "Parametre:",IDC_STATIC,122,110,45,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT6,25,148,41,15,ES_AUTOHSCROLL
+    LTEXT           "Suffixe ajouté au nom du fichier.\nS'il est vide, le fichier d'origine peut être écrasé.",IDC_STATIC,73,147,145,23
+    CONTROL         "Utiliser la date et l'heure des données EXIF/time",IDC_CHECK10,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,96,189,10
+    CONTROL         "Couleur d'arrière-plan",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,124,87,10
+    EDITTEXT        IDC_EDIT9,172,124,41,15,ES_AUTOHSCROLL
+    LTEXT           "Parametre:",IDC_STATIC,128,124,39,10,0,WS_EX_RIGHT
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 335, 249
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parametre"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,272,25,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,272,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,251,235
+    EDITTEXT        IDC_EDIT2,177,41,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Contraste minimum sur une ligne",IDC_STATIC,60,41,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT6,177,20,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Longueur minimum d'une ligne (0: Automatique)",IDC_STATIC,14,20,156,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT9,177,62,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Déviation tangentielle maximum [°]",IDC_STATIC,60,62,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT11,177,83,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Taux de correction [%]",IDC_STATIC,60,83,110,15,SS_CENTERIMAGE
+    CONTROL         "Essai de correction automatique de la rotation  ",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,42,194,206,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT12,177,125,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Distortion radiale",IDC_STATIC,59,125,110,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Réinitialiser",IDC_BUTTON1,272,125,50,15
+    EDITTEXT        IDC_EDIT13,177,146,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Distance focale (équivalent au 35mm) [mm]",IDC_STATIC,19,146,150,15,SS_CENTERIMAGE
+    CONTROL         "Se fier à l'information d'orientation des données EXIF  ",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,210,208,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT14,177,104,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Parametre de résolution horizontale",IDC_STATIC,18,104,151,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT15,177,167,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Paramètre de résolution",IDC_STATIC,19,167,150,15,SS_CENTERIMAGE
+    CONTROL         "Par lot  ",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,226,208,10,WS_EX_RIGHT
+END
+
+IDD_DIALOG8 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Le résultat a été enregistré.",IDC_STATIC,25,22,185,30
+END
+
+CG_IDD_MYDIALOGBAR DIALOGEX 0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Correction automatique",MH_Go,105,3,93,13
+    PUSHBUTTON      "Règler la correction",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimizer",MH_Re,203,3,93,13
+    PUSHBUTTON      "Enregistrer et sortir",ID_SAVE_CLOSE,399,3,93,13
+    PUSHBUTTON      "Ouvrir",MH_LOAD,7,3,93,13
+END
+
+CG_IDD_PROGRESS DIALOG  0, 0, 187, 37
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,16,13,154,13
+END
+
+IDD_DIALOG12 DIALOGEX 0, 0, 301, 194
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Crédits"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,26,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,20,20
+    GROUPBOX        "",IDC_STATIC,7,7,221,180
+    LTEXT           "Ce logiciel est basé en partie sur les travaux du ""Independent JPEG Group"" (JPEG library).",IDC_STATIC,54,23,165,18
+    LTEXT           "La détection des lignes est basée sur les documents suivants: J. Brian Burns, Allen R. Hanson, Edward M. Riseman: ""Extracting Straight Lines"", IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. PAMI-8, No. 4, July 1986.",IDC_STATIC,54,70,162,51
+    LTEXT           "Remerciements à André Carlot et Jacques Gourdon pour la traduction des fichiers d'aide.",IDC_STATIC,54,158,164,18
+    LTEXT           "ShiftN incorpore les bibliothèques ""libtiff"" et ""zlib"" pour le traitement des images TIFF.",IDC_STATIC,54,46,155,20
+    LTEXT           "Remerciements particuliers à Matthias Wandel pour la disponibilité des jhead-sources (traitement des données EXIF).",IDC_STATIC,54,127,160,25
+END
+
+IDD_DIALOG11 DIALOGEX 0, 0, 340, 218
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Règler la correction"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,195,228,14
+    RTEXT           "Décentrement",IDC_STATIC,13,21,52,15
+    RTEXT           "Rotation [°]",IDC_STATIC,13,57,52,15
+    GROUPBOX        "Automatique",IDC_STATIC,7,7,326,83
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,18,197,17
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,54,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,38,21,12
+    CTEXT           "0",IDC_STATIC,164,38,23,12
+    CTEXT           "1.6",IDC_STATIC,252,38,25,12
+    CTEXT           "-8",IDC_STATIC,74,74,21,12
+    CTEXT           "0",IDC_STATIC,164,74,23,12
+    CTEXT           "8",IDC_STATIC,252,74,25,12
+    RTEXT           "Distorsion",IDC_STATIC,12,118,52,15
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,115,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,135,21,12
+    CTEXT           "0",IDC_STATIC,164,135,23,12
+    CTEXT           "1.6",IDC_STATIC,252,135,25,12
+    GROUPBOX        "Non-automatique",IDC_STATIC,7,96,326,91
+    EDITTEXT        IDC_EDIT1,277,22,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,277,58,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,277,119,39,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Réinitialiser",IDC_BUTTON1,253,195,69,14
+    RTEXT           "Résolution\nhorizontale",IDC_STATIC,12,155,52,15
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,152,197,17
+    CTEXT           "-5.0",IDC_STATIC,74,171,21,12
+    CTEXT           "0",IDC_STATIC,164,171,23,12
+    CTEXT           "5.0",IDC_STATIC,252,171,25,12
+    EDITTEXT        IDC_EDIT4,278,155,39,14,ES_AUTOHSCROLL
+END
+
+CG_IDD_MYDIALOGBAR_SAVE DIALOGEX 0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Correction automatique",MH_Go,105,3,93,13
+    PUSHBUTTON      "Règler la correction",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimiser",MH_Re,203,3,93,13
+    PUSHBUTTON      "Enregistrer",MH_SAVE,399,3,93,13
+    PUSHBUTTON      "Ouvrir",MH_LOAD,7,3,93,13
+END
+
+IDD_DIALOG13 DIALOGEX 0, 0, 204, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bouton ""Enregistrer"""
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CTEXT           "Redémarrer pour prendre en compte les modifications",IDC_STATIC,7,49,190,18,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "Bouton ""Enregistrer et sortir""",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,29,161,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    CG_IDD_MYDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    CG_IDD_MYDIALOGBAR_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ShiftN\n\nShiftN\n\n\nShiftN.Document\nShiftN Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShiftN"
+    AFX_IDS_IDLEMESSAGE     "..."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "MH"
+    ID_INDICATOR_CAPS       "MH"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "MH"
+    ID_INDICATOR_OVR        "MH"
+    ID_INDICATOR_REC        "MH"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "Ouvrir\nOuvrir"
+    ID_FILE_CLOSE           "Fermer\nFermer"
+    ID_FILE_SAVE            "Enregistrer\nEnregistrer"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "A propos de\nA propos de"
+    ID_APP_EXIT             "Quitter\nQuitter"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvrir"
+    ID_FILE_MRU_FILE2       "Ouvrir"
+    ID_FILE_MRU_FILE3       "Ouvrir"
+    ID_FILE_MRU_FILE4       "Ouvrir"
+    ID_FILE_MRU_FILE5       "Ouvrir"
+    ID_FILE_MRU_FILE6       "Ouvrir"
+    ID_FILE_MRU_FILE7       "Ouvrir"
+    ID_FILE_MRU_FILE8       "Ouvrir"
+    ID_FILE_MRU_FILE9       "Ouvrir"
+    ID_FILE_MRU_FILE10      "Ouvrir"
+    ID_FILE_MRU_FILE11      "Ouvrir"
+    ID_FILE_MRU_FILE12      "Ouvrir"
+    ID_FILE_MRU_FILE13      "Ouvrir"
+    ID_FILE_MRU_FILE14      "Ouvrir"
+    ID_FILE_MRU_FILE15      "Ouvrir"
+    ID_FILE_MRU_FILE16      "Ouvrir"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Barre d'état\nBarre d'état"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Resize window"
+    AFX_IDS_SCMOVE          "Move window"
+    AFX_IDS_SCMINIMIZE      "Minimize window"
+    AFX_IDS_SCMAXIMIZE      "Maximize window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore window"
+    AFX_IDS_SCTASKLIST      "Activate tasklist"
+END
+
+STRINGTABLE 
+BEGIN
+    MH_SAVE                 "Enregistrer\nEnregistrer"
+    MH_LOAD                 "Ouvrir\nOuvrir"
+    MH_PARAM                "Paramètres\nParamètres"
+    MH_Go                   "Correction automatique\nAutomatique"
+    MH_BATCH                "Par Lot\nPar Lot"
+    ID_DARSTELLUNG          "Type de sortie\nSortie"
+    MH_DARST                "Type de sortie\nSortie"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_LANGUAGE     "Changer de langue\nLangue"
+    ID_ANWENDEN_KORREKTURANPASSEN "Ajuster les corrections\nAjuster"
+    ID_DATEI_SPEICHERNUNTER "Enregistrer sous...\nEnregistrer"
+    MH_Re                   "Re-optimiser\nRe-optimiser"
+    ID_GITTER               "Afficher la grille\nGrille"
+    ID_SAVE_CLOSE           "Enregistrer et Sortir\nEnregistrer"
+    ID_FILE_SAVEANDEXIT     "Enregistrer et Sortir\nEnregistrer"
+    ID_ACKNOW               "Crédits\nCrédits"
+    ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN 
+                            "Bouton ""Enregistrer""\nBouton ""Enregistrer"""
+    ID_CTRLC                "Copier\nCopier"
+    ID_CTRLV                "Coller\nColler"
+END
+
+STRINGTABLE 
+BEGIN
+    CG_ID_VIEW_MYDIALOGBAR  "Barre de boutons\nBoutons"
+    CG_IDS_PROGRESS_CAPTION "Progrès"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_COPY            "Copier\nCopier"
+    ID_EDIT_PASTE           "Coller\nColler"
+END
+
+#endif    // French (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Datei"
+    BEGIN
+        MENUITEM "Öffnen",                      MH_LOAD
+        MENUITEM "Ergebnis speichern",          MH_SAVE
+        MENUITEM "Speichern unter...",          ID_DATEI_SPEICHERNUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Stapelverarbeitung",          MH_BATCH
+        MENUITEM SEPARATOR
+        MENUITEM "Speichern und beenden",       ID_SAVE_CLOSE
+        MENUITEM "Beenden",                     ID_APP_EXIT
+    END
+    POPUP "Bearbeiten"
+    BEGIN
+        MENUITEM "Kopieren",                    ID_CTRLC
+        MENUITEM "Einfügen",                    ID_CTRLV
+    END
+    POPUP "Ansicht"
+    BEGIN
+        MENUITEM "Buttons anzeigen",            CG_ID_VIEW_MYDIALOGBAR
+        MENUITEM "Gitter anzeigen",             ID_GITTER
+        MENUITEM "Statuszeile",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "Einstellungen"
+    BEGIN
+        MENUITEM "Parameter",                   MH_PARAM
+        MENUITEM "Art der Ausgabe",             MH_DARST
+        MENUITEM "Schaltfläche ""Speichern""",  ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN
+        MENUITEM "Sprache",                     ID_OPTIONS_LANGUAGE
+    END
+    POPUP "Anwenden"
+    BEGIN
+        MENUITEM "Automatische Korrektur",      MH_Go
+        MENUITEM "Erneut optimieren",           MH_Re
+        MENUITEM "Korrektur anpassen",          ID_ANWENDEN_KORREKTURANPASSEN
+    END
+    POPUP "?"
+    BEGIN
+        MENUITEM "Hilfe",                       ID_HELPMH
+        MENUITEM SEPARATOR
+        MENUITEM "Hinweise",                    ID_ACKNOW
+        MENUITEM "Über...",                     ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 302, 128
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ShiftN Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,114
+    LTEXT           "ShiftN 4.0 ist lizenziert unter der GNU Lesser General Public License (LGPL) Version 3. Der Autor übernimmt keinerlei Gewährleistung und haftet nicht für Schäden, die dem Nutzer durch die Verwendung entstehen.",IDC_STATIC,52,64,155,45,0,WS_EX_TRANSPARENT
+    LTEXT           "ShiftN Version 4.0 (VS12)\nMarcus Hebel 1998-2010\nmhebel@gmx.de\nhttp://www.marcus-hebel.de",IDC_STATIC,52,23,155,38,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG1 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hinweis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Beim Einlesen der Datei ist ein Fehler aufgetreten.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hinweis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Es befindet sich kein Ergebnis im Speicher.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hinweis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Es befindet sich kein Bild im Speicher.",IDC_STATIC,25,22,185,26
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 319, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ausgabe"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,254,25,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,254,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,234,164
+    CONTROL         "JPEG speichern",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,26,86,10
+    CONTROL         "BMP speichern",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,40,87,10
+    CONTROL         "TIFF speichern",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,54,96,10
+    CONTROL         "Bilder automatisch beschneiden",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,68,180,10
+    CONTROL         "Bilder schärfen",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,110,75,10
+    CONTROL         "Bikubische Interpolation",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,82,180,10
+    EDITTEXT        IDC_EDIT3,189,108,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,189,24,41,15,ES_AUTOHSCROLL
+    LTEXT           "Qualität:",IDC_STATIC,138,26,45,10,0,WS_EX_RIGHT
+    LTEXT           "Parameter:",IDC_STATIC,138,110,45,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT6,25,145,41,15,ES_AUTOHSCROLL
+    LTEXT           "Angefügter Zusatz an Dateinamen.\nFalls keine Angabe wird Überschreiben ermöglicht.",IDC_STATIC,73,144,163,23
+    CONTROL         "EXIF-Datum verwenden",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,96,120,10
+    CONTROL         "Hintergrundfarbe",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,124,75,10
+    EDITTEXT        IDC_EDIT9,189,124,41,15,ES_AUTOHSCROLL
+    LTEXT           "Parameter:",IDC_STATIC,138,124,45,10,0,WS_EX_RIGHT
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 325, 248
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,257,25,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,257,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,236,234
+    EDITTEXT        IDC_EDIT2,163,41,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Minimaler Kontrast",IDC_STATIC,46,41,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT6,163,20,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Minimale Länge der Linien (0: Automatik)",IDC_STATIC,17,20,139,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT9,163,62,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Maximale Schräglage [°]",IDC_STATIC,46,62,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT11,163,83,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Korrekturfaktor [%]",IDC_STATIC,46,83,110,15,SS_CENTERIMAGE
+    CONTROL         "Drehungen automatisch ausgleichen  ",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,41,192,192,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT12,163,125,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Radiale Verzeichnung",IDC_STATIC,45,125,110,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Standard",IDC_BUTTON1,257,125,50,14
+    EDITTEXT        IDC_EDIT13,163,146,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Brennweite (Kleinbild-Äquivalent) [mm]",IDC_STATIC,18,146,137,15,SS_CENTERIMAGE
+    CONTROL         "EXIF-Orientierungsangaben auswerten  ",IDC_CHECK2,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,32,208,201,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT14,163,104,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Parameter für horizontale Stauchung",IDC_STATIC,17,104,138,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT15,163,167,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Auflösungsparameter",IDC_STATIC,17,167,137,15,SS_CENTERIMAGE
+    CONTROL         "Stapelverarbeitung  ",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,32,224,201,10,WS_EX_RIGHT
+END
+
+IDD_DIALOG8 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hinweis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Ergebnis wurde gespeichert.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG11 DIALOGEX 0, 0, 340, 221
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Korrektur anpassen"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,17,198,227,14
+    RTEXT           "Shift",IDC_STATIC,13,21,52,15
+    RTEXT           "Drehung [°]",IDC_STATIC,13,57,52,15
+    GROUPBOX        "Automatik",IDC_STATIC,7,7,326,83
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,18,197,17
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,54,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,38,21,12
+    CTEXT           "0",IDC_STATIC,164,38,23,12
+    CTEXT           "1.6",IDC_STATIC,252,38,25,12
+    CTEXT           "-8",IDC_STATIC,74,74,21,12
+    CTEXT           "0",IDC_STATIC,164,74,23,12
+    CTEXT           "8",IDC_STATIC,252,74,25,12
+    RTEXT           "Verzeichnung",IDC_STATIC,12,118,52,15
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,115,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,135,21,12
+    CTEXT           "0",IDC_STATIC,164,135,23,12
+    CTEXT           "1.6",IDC_STATIC,252,135,25,12
+    GROUPBOX        "Manuelle Einstellung",IDC_STATIC,7,96,326,91
+    EDITTEXT        IDC_EDIT1,277,22,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,277,58,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,277,119,39,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Zurücksetzen",IDC_BUTTON1,252,198,71,14
+    RTEXT           "Horizontale\nStauchung",IDC_STATIC,12,155,52,20
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,152,197,17
+    CTEXT           "-5.0",IDC_STATIC,74,171,21,12
+    CTEXT           "0",IDC_STATIC,164,171,23,12
+    CTEXT           "5.0",IDC_STATIC,252,171,25,12
+    EDITTEXT        IDC_EDIT4,278,155,39,14,ES_AUTOHSCROLL
+END
+
+CG_IDD_MYDIALOGBAR DIALOGEX 0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Automatische Korrektur",MH_Go,105,3,93,13
+    PUSHBUTTON      "Manuell anpassen",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Erneut optimieren",MH_Re,203,3,93,13
+    PUSHBUTTON      "Speichern und beenden",ID_SAVE_CLOSE,399,3,93,13
+    PUSHBUTTON      "Öffnen",MH_LOAD,7,3,93,13
+END
+
+CG_IDD_PROGRESS DIALOG  0, 0, 187, 37
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,16,13,154,13
+END
+
+IDD_DIALOG12 DIALOG  0, 0, 301, 178
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Anmerkungen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,26,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    GROUPBOX        "",IDC_STATIC,10,7,215,164
+    LTEXT           "Diese Software verwendet die JPEG-Bibliothek der ""Independent JPEG Group"".",IDC_STATIC,52,24,155,18
+    LTEXT           "Die Liniendetektion basiert auf: J. Brian Burns, Allen R. Hanson, Edward M. Riseman: ""Extracting Straight Lines"", IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. PAMI-8, No. 4, Juli 1986.",IDC_STATIC,52,76,155,45
+    LTEXT           "Vielen Dank an Matthias Wandel für die Bereitstellung der EXIF-Routinen (jhead).",IDC_STATIC,52,123,155,19
+    LTEXT           "Zur Nutzung von TIFF-Bilddaten wird die LibTIFF-Bibliothek verwendet, welche wiederum in Teilen auf der Bibliothek ""zlib"" basiert.",IDC_STATIC,52,46,155,26
+    LTEXT           "Danke an Manfred Ritter für die Erstellung des Hilfemoduls.",IDC_STATIC,52,145,155,19
+END
+
+CG_IDD_MYDIALOGBAR_SAVE DIALOG  0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Automatische Korrektur",MH_Go,105,3,93,13
+    PUSHBUTTON      "Manuell anpassen",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Erneut optimieren",MH_Re,203,3,93,13
+    PUSHBUTTON      "Speichern",MH_SAVE,399,3,93,13
+    PUSHBUTTON      "Öffnen",MH_LOAD,7,3,93,13
+END
+
+IDD_DIALOG13 DIALOG  0, 0, 204, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Schaltfläche ""Speichern"""
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CTEXT           "Neustart der Anwendung erforderlich",IDC_STATIC,7,49,190,18,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "Schaltfläche ""Speichern und beenden""",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,29,161,14
+END
+
+IDD_DIALOG10 DIALOGEX 0, 0, 204, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sprache"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CONTROL         "Deutsch",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,16,106,10
+    CONTROL         "Englisch",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,14,30,106,12
+    CONTROL         "Französisch",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,14,46,106,12
+    CONTROL         "Spanisch",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,14,62,106,12
+    CTEXT           "Neustart der Anwendung erforderlich",IDC_STATIC,7,84,190,18,SS_CENTERIMAGE | WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    CG_IDD_MYDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    CG_IDD_MYDIALOGBAR_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ShiftN.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_LANGUAGE     "Sprache einstellen\nSprache"
+    ID_ANWENDEN_KORREKTURANPASSEN "Korrektur anpassen\nAnpassen"
+    ID_DATEI_SPEICHERNUNTER "Speichern unter...\nSpeichern"
+    MH_Re                   "Nochmal optimieren\nNochmal optimieren"
+    ID_GITTER               "Gitter anzeigen\nGitter"
+    ID_SAVE_CLOSE           "Speichern und Programm beenden\nSpeichern und beenden"
+    ID_ACKNOW               "Hinweise\nHinweise"
+    ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN 
+                            "Einstellung des Verhaltens der Schaltfläche ""Speichern""\nSchaltfläche ""Speichern"""
+    ID_CTRLC                "Kopieren\nKopieren"
+    ID_CTRLV                "Einfügen\nEinfügen"
+END
+
+STRINGTABLE 
+BEGIN
+    MH_SAVE                 "Ergebnis speichern\nSpeichern"
+    MH_LOAD                 "Bild öffnen\nÖffnen"
+    MH_PARAM                "Parameter eingeben\nParameter"
+    MH_Go                   "ShiftN anwenden\nAnwenden"
+    MH_BATCH                "Stapelverarbeitung\nStapelverarbeitung"
+    ID_DARSTELLUNG          "Art der Ausgabe\nAusgabe"
+    MH_DARST                "Art der Ausgabe\nAusgabe"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Ein-/Ausblenden der Statuszeile"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Über ShiftN\nInfo"
+    ID_APP_EXIT             "ShiftN beenden\nBeenden"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_HELPMH               "Hilfe\nHilfe"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "Öffnen\nÖffnen"
+    ID_FILE_CLOSE           "Schließen\nSchließen"
+    ID_FILE_SAVE            "Speichern\nSpeichern"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Öffnen"
+    ID_FILE_MRU_FILE2       "Öffnen"
+    ID_FILE_MRU_FILE3       "Öffnen"
+    ID_FILE_MRU_FILE4       "Öffnen"
+    ID_FILE_MRU_FILE5       "Öffnen"
+    ID_FILE_MRU_FILE6       "Öffnen"
+    ID_FILE_MRU_FILE7       "Öffnen"
+    ID_FILE_MRU_FILE8       "Öffnen"
+    ID_FILE_MRU_FILE9       "Öffnen"
+    ID_FILE_MRU_FILE10      "Öffnen"
+    ID_FILE_MRU_FILE11      "Öffnen"
+    ID_FILE_MRU_FILE12      "Öffnen"
+    ID_FILE_MRU_FILE13      "Öffnen"
+    ID_FILE_MRU_FILE14      "Öffnen"
+    ID_FILE_MRU_FILE15      "Öffnen"
+    ID_FILE_MRU_FILE16      "Öffnen"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ShiftN\n\nShiftN\n\n\nShiftN.Document\nShiftN Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShiftN"
+    AFX_IDS_IDLEMESSAGE     "Bereit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "MH"
+    ID_INDICATOR_CAPS       "MH"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "MH"
+    ID_INDICATOR_OVR        "MH"
+    ID_INDICATOR_REC        "MH"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Fenstergröße ändern"
+    AFX_IDS_SCMOVE          "Fenster verschieben"
+    AFX_IDS_SCMINIMIZE      "Fenster minimieren"
+    AFX_IDS_SCMAXIMIZE      "Fenster maximieren"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Fenster wiederherstellen"
+    AFX_IDS_SCTASKLIST      "Taskliste aktivieren"
+END
+
+STRINGTABLE 
+BEGIN
+    CG_ID_VIEW_MYDIALOGBAR  "Buttons einblenden oder ausblenden\nButtons ein-/ausschalten"
+    CG_IDS_PROGRESS_CAPTION "Fortschritt"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        MH_LOAD
+        MENUITEM "Save results",                MH_SAVE
+        MENUITEM "Save as...",                  ID_DATEI_SPEICHERNUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "Batch processing",            MH_BATCH
+        MENUITEM SEPARATOR
+        MENUITEM "Save and exit",               ID_SAVE_CLOSE
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Copy",                        ID_CTRLC
+        MENUITEM "Paste",                       ID_CTRLV
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Buttons",                     CG_ID_VIEW_MYDIALOGBAR
+        MENUITEM "Show grid",                   ID_GITTER
+        MENUITEM "Status bar",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Parameter",                   MH_PARAM
+        MENUITEM "Type of output",              MH_DARST
+        MENUITEM "Language",                    ID_OPTIONS_LANGUAGE
+        MENUITEM "Button ""Save""",             ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN
+    END
+    POPUP "Start"
+    BEGIN
+        MENUITEM "Automatic correction",        MH_Go
+        MENUITEM "Re-optimize",                 MH_Re
+        MENUITEM "Adjust correction",           ID_ANWENDEN_KORREKTURANPASSEN
+    END
+    POPUP "?"
+    BEGIN
+        MENUITEM "Help",                        ID_HELPMH
+        MENUITEM SEPARATOR
+        MENUITEM "Acknowledgments",             ID_ACKNOW
+        MENUITEM "About...",                    ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG10 DIALOGEX 0, 0, 204, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Language"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CONTROL         "German",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,14,106,10
+    CONTROL         "English",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,14,28,106,12
+    CONTROL         "French",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,14,44,106,12
+    CONTROL         "Spanish",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,14,60,106,12
+    CTEXT           "Restart required to apply changes",IDC_STATIC,7,84,190,18,SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 302, 120
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ShiftN Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,106
+    LTEXT           "ShiftN 4.0 is licensed under the GNU Lesser General Public License (LGPL) version 3. It is provided ""as-is"", with no warranty of any kind expressed or implied.",IDC_STATIC,52,65,155,41,0,WS_EX_TRANSPARENT
+    LTEXT           "ShiftN Version 4.0 (VS12)\nMarcus Hebel 1998-2010\nmhebel@gmx.de\nhttp://www.marcus-hebel.de",IDC_STATIC,52,23,155,38,0,WS_EX_TRANSPARENT
+END
+
+IDD_DIALOG1 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "An error occurred while trying to read the file.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "Nothing to save.",IDC_STATIC,25,22,185,30
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "No file loaded.",IDC_STATIC,25,22,185,26
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 302, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Type of output"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,235,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,167
+    CONTROL         "Save JPEG",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,26,60,10
+    CONTROL         "Save BMP",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,40,180,10
+    CONTROL         "Save TIFF",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,54,180,10
+    CONTROL         "Trim pictures automatically",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,68,180,10
+    CONTROL         "Sharpen pictures",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,110,75,10
+    CONTROL         "Bicubic resampling",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,82,180,10
+    EDITTEXT        IDC_EDIT3,172,108,41,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,172,24,41,15,ES_AUTOHSCROLL
+    LTEXT           "Quality:",IDC_STATIC,121,26,45,10,0,WS_EX_RIGHT
+    LTEXT           "Parameter:",IDC_STATIC,121,110,45,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT6,25,146,41,15,ES_AUTOHSCROLL
+    LTEXT           "Suffix added to the filename.\nIf empty, the original file may be overwritten.",IDC_STATIC,73,145,145,23
+    CONTROL         "Use EXIF date/time",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,96,110,10
+    CONTROL         "Background color",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,124,75,10
+    EDITTEXT        IDC_EDIT9,172,124,41,15,ES_AUTOHSCROLL
+    LTEXT           "Parameter:",IDC_STATIC,127,124,39,10,0,WS_EX_RIGHT
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 335, 250
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,272,25,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,272,45,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,251,236
+    EDITTEXT        IDC_EDIT2,177,41,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Minimum line contrast",IDC_STATIC,60,41,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT6,177,20,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Minimum line length (0: Automatic selection)",IDC_STATIC,16,20,154,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT9,177,62,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Maximum tangential deviation [°]",IDC_STATIC,60,62,110,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT11,177,83,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Amount of correction [%]",IDC_STATIC,60,83,110,15,SS_CENTERIMAGE
+    CONTROL         "Try to correct rotations automatically  ",IDC_CHECK1,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,42,194,206,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT12,177,125,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Radial distortion",IDC_STATIC,59,125,110,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Reset",IDC_BUTTON1,272,125,50,15
+    EDITTEXT        IDC_EDIT13,177,146,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Focal length (35mm equivalent) [mm]",IDC_STATIC,19,146,150,15,SS_CENTERIMAGE
+    CONTROL         "Rely on EXIF orientation tag  ",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,210,208,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT14,177,104,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Parameter for horizontal resolution",IDC_STATIC,18,104,151,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT15,177,167,70,15,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "Resolution parameter",IDC_STATIC,19,167,150,15,SS_CENTERIMAGE
+    CONTROL         "Batch processing  ",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,40,226,208,10,WS_EX_RIGHT
+END
+
+IDD_DIALOG8 DIALOG  0, 0, 302, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,25,50,14
+    GROUPBOX        "",IDC_STATIC,10,7,215,53
+    LTEXT           "The result has been saved.",IDC_STATIC,25,22,185,30
+END
+
+CG_IDD_MYDIALOGBAR DIALOG  0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Automatic correction",MH_Go,105,3,93,13
+    PUSHBUTTON      "Adjust correction",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimize",MH_Re,203,3,93,13
+    PUSHBUTTON      "Save and exit",ID_SAVE_CLOSE,399,3,93,13
+    PUSHBUTTON      "Open",MH_LOAD,7,3,93,13
+END
+
+CG_IDD_PROGRESS DIALOG  0, 0, 187, 37
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",WS_BORDER,16,13,154,13
+END
+
+IDD_DIALOG12 DIALOG  0, 0, 301, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Acknowledgments"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,235,26,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,19,25,21,20
+    GROUPBOX        "",IDC_STATIC,7,7,215,161
+    LTEXT           "This software is based in part on the work of the Independent JPEG Group (JPEG library).",IDC_STATIC,54,23,155,18
+    LTEXT           "Line detection is based on: J. Brian Burns, Allen R. Hanson, Edward M. Riseman: ""Extracting Straight Lines"", IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. PAMI-8, No. 4, July 1986.",IDC_STATIC,54,70,155,45
+    LTEXT           "Thanks to Hal Hagan and Keith Morris for translating the help file.",IDC_STATIC,54,141,155,19
+    LTEXT           "ShiftN incorporates the libraries ""libtiff"" and ""zlib"" for processing and manipulating TIFF images.",IDC_STATIC,54,46,155,20
+    LTEXT           "Special thanks to Matthias Wandel for making the jhead-sources available (EXIF handling).",IDC_STATIC,54,118,155,19
+END
+
+IDD_DIALOG11 DIALOGEX 0, 0, 340, 218
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Adjust correction"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,197,228,14
+    RTEXT           "Shift",IDC_STATIC,13,21,52,15
+    RTEXT           "Rotation [°]",IDC_STATIC,13,57,52,15
+    GROUPBOX        "Automatic",IDC_STATIC,7,7,326,83
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,18,197,17
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,54,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,38,21,12
+    CTEXT           "0",IDC_STATIC,164,38,23,12
+    CTEXT           "1.6",IDC_STATIC,252,38,25,12
+    CTEXT           "-8",IDC_STATIC,74,74,21,12
+    CTEXT           "0",IDC_STATIC,164,74,23,12
+    CTEXT           "8",IDC_STATIC,252,74,25,12
+    RTEXT           "Distortion",IDC_STATIC,12,118,52,15
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,115,197,17
+    CTEXT           "-1.6",IDC_STATIC,74,135,21,12
+    CTEXT           "0",IDC_STATIC,164,135,23,12
+    CTEXT           "1.6",IDC_STATIC,252,135,25,12
+    GROUPBOX        "Non-automatic",IDC_STATIC,7,96,326,93
+    EDITTEXT        IDC_EDIT1,277,22,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,277,58,39,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,277,119,39,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_BUTTON1,253,197,69,14
+    RTEXT           "Horizontal\nshortening",IDC_STATIC,12,154,52,19
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,76,151,197,17
+    CTEXT           "-5.0",IDC_STATIC,74,170,21,12
+    CTEXT           "0",IDC_STATIC,164,170,23,12
+    CTEXT           "5.0",IDC_STATIC,252,170,25,12
+    EDITTEXT        IDC_EDIT4,278,154,39,14,ES_AUTOHSCROLL
+END
+
+CG_IDD_MYDIALOGBAR_SAVE DIALOG  0, 0, 499, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Automatic correction",MH_Go,105,3,93,13
+    PUSHBUTTON      "Adjust correction",ID_ANWENDEN_KORREKTURANPASSEN,301,3,93,13
+    PUSHBUTTON      "Re-optimize",MH_Re,203,3,93,13
+    PUSHBUTTON      "Save",MH_SAVE,399,3,93,13
+    PUSHBUTTON      "Open",MH_LOAD,7,3,93,13
+END
+
+IDD_DIALOG13 DIALOG  0, 0, 204, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Button ""Save"""
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    CTEXT           "Restart required to apply changes",IDC_STATIC,7,49,190,18,SS_CENTERIMAGE | WS_BORDER
+    CONTROL         "Button ""Save and exit""",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,29,161,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    CG_IDD_MYDIALOGBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    CG_IDD_MYDIALOGBAR_SAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 492
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ShiftN\n\nShiftN\n\n\nShiftN.Document\nShiftN Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShiftN"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "MH"
+    ID_INDICATOR_CAPS       "MH"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "MH"
+    ID_INDICATOR_OVR        "MH"
+    ID_INDICATOR_REC        "MH"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "Open\nOpen"
+    ID_FILE_CLOSE           "Close\nClose"
+    ID_FILE_SAVE            "Save\nSave"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Info\nInfo"
+    ID_APP_EXIT             "Exit\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open"
+    ID_FILE_MRU_FILE2       "Open"
+    ID_FILE_MRU_FILE3       "Open"
+    ID_FILE_MRU_FILE4       "Open"
+    ID_FILE_MRU_FILE5       "Open"
+    ID_FILE_MRU_FILE6       "Open"
+    ID_FILE_MRU_FILE7       "Open"
+    ID_FILE_MRU_FILE8       "Open"
+    ID_FILE_MRU_FILE9       "Open"
+    ID_FILE_MRU_FILE10      "Open"
+    ID_FILE_MRU_FILE11      "Open"
+    ID_FILE_MRU_FILE12      "Open"
+    ID_FILE_MRU_FILE13      "Open"
+    ID_FILE_MRU_FILE14      "Open"
+    ID_FILE_MRU_FILE15      "Open"
+    ID_FILE_MRU_FILE16      "Open"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Status bar\nStatus bar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Resize window"
+    AFX_IDS_SCMOVE          "Move window"
+    AFX_IDS_SCMINIMIZE      "Minimize window"
+    AFX_IDS_SCMAXIMIZE      "Maximize window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore window"
+    AFX_IDS_SCTASKLIST      "Activate tasklist"
+END
+
+STRINGTABLE 
+BEGIN
+    MH_SAVE                 "Save\nSave"
+    MH_LOAD                 "Open\nOpen"
+    MH_PARAM                "Parameter\nParameter"
+    MH_Go                   "Automatic correction\nAutomatic"
+    MH_BATCH                "Batch processing\nBatch"
+    ID_DARSTELLUNG          "Type of output\nOutput"
+    MH_DARST                "Type of output\nOutput"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTIONS_LANGUAGE     "Select language\nLanguage"
+    ID_ANWENDEN_KORREKTURANPASSEN "Adjust correction\nAdjust"
+    ID_DATEI_SPEICHERNUNTER "Save as...\nSave"
+    MH_Re                   "Re-optimize\nRe-optimize"
+    ID_GITTER               "Show grid\nGrid"
+    ID_SAVE_CLOSE           "Save and exit\nSave and exit"
+    ID_FILE_SAVEANDEXIT     "Save and Exit\nSave and Exit"
+    ID_ACKNOW               "Acknowledgments\nAcknowledgments"
+    ID_EINSTELLUNGEN_SCHALTFLCHESPEICHERN 
+                            "Configure button ""Save""\nButton ""Save"""
+    ID_CTRLC                "Copy\nCopy"
+    ID_CTRLV                "Paste\nPaste"
+END
+
+STRINGTABLE 
+BEGIN
+    CG_ID_VIEW_MYDIALOGBAR  "Buttons\nButtons"
+    CG_IDS_PROGRESS_CAPTION "ShiftN - Progress"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy\nCopy"
+    ID_EDIT_PASTE           "Paste\nPaste"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ShiftN.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
