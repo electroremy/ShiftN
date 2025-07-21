@@ -1,0 +1,12 @@
+LIBRARY		LIBJPEG
+DESCRIPTION	'IJG JPEG library'
+EXPORTS
+	jpeg_std_error
+	jpeg_CreateDecompress
+	jpeg_stdio_src
+	jpeg_read_header
+	jpeg_start_decompress
+	jpeg_abort
+	jpeg_read_scanlines
+	jpeg_finish_decompress
+	jpeg_destroy_decompress
