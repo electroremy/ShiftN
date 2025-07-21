@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: zlib - Win32 LIB Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x409 /fo"Win32_LIB_Release/zlib1.res" /i "\TMP7\ShiftN_23\zlib\win32" /d "NDEBUG" "D:\TMP7\ShiftN_23\zlib\win32\zlib1.rc"" 
+Erstellen der temporären Datei  "C:\TEMP\RSPC8.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GR /GX /O2 /D "WIN32" /D "NDEBUG" /Fo"Win32_LIB_Release/" /Fd"Win32_LIB_Release/" /FD /c 
+"D:\TMP7\ShiftN_23\zlib\adler32.c"
+"D:\TMP7\ShiftN_23\zlib\compress.c"
+"D:\TMP7\ShiftN_23\zlib\crc32.c"
+"D:\TMP7\ShiftN_23\zlib\deflate.c"
+"D:\TMP7\ShiftN_23\zlib\gzio.c"
+"D:\TMP7\ShiftN_23\zlib\infback.c"
+"D:\TMP7\ShiftN_23\zlib\inffast.c"
+"D:\TMP7\ShiftN_23\zlib\inflate.c"
+"D:\TMP7\ShiftN_23\zlib\inftrees.c"
+"D:\TMP7\ShiftN_23\zlib\trees.c"
+"D:\TMP7\ShiftN_23\zlib\uncompr.c"
+"D:\TMP7\ShiftN_23\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\TEMP\RSPC8.tmp" 
+Erstellen der temporären Datei  "C:\TEMP\RSPC9.tmp" mit Inhalten
+[
+/nologo /out:"Win32_LIB_Release\zlib.lib" 
+.\Win32_LIB_Release\adler32.obj
+.\Win32_LIB_Release\compress.obj
+.\Win32_LIB_Release\crc32.obj
+.\Win32_LIB_Release\deflate.obj
+.\Win32_LIB_Release\gzio.obj
+.\Win32_LIB_Release\infback.obj
+.\Win32_LIB_Release\inffast.obj
+.\Win32_LIB_Release\inflate.obj
+.\Win32_LIB_Release\inftrees.obj
+.\Win32_LIB_Release\trees.obj
+.\Win32_LIB_Release\uncompr.obj
+.\Win32_LIB_Release\zutil.obj
+.\Win32_LIB_Release\zlib1.res
+]
+Erstellen der Befehlzeile "link.exe -lib @C:\TEMP\RSPC9.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generieren von Code...
+Bibliothek wird erstellt...
+
+
+
+<h3>Ergebnisse</h3>
+zlib.lib - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>
