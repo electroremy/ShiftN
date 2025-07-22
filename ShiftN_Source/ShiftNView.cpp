@@ -2530,10 +2530,10 @@ void bild_zeichnen(CDC* pDC, int max_x, int max_y) {
 			i += 1;
 			if ((outy + i*hoehe)<(afu - 30)) {
 				switch (sprach) {
-				case 1: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red"); break;
-				case 2: pDC->TextOut(outx, outy + i*hoehe, "SUPPR = Toutes lignes en rouge"); break;
-				case 3: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red"); break;
-				default: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red"); break;
+				case 1: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red or in green"); break;
+				case 2: pDC->TextOut(outx, outy + i*hoehe, "SUPPR = Toutes lignes en rouge ou en vert"); break;
+				case 3: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red or in green"); break;
+				default: pDC->TextOut(outx, outy + i*hoehe, "DEL = All lines in red or in green"); break;
 				}
 			}
 			i += 1;
@@ -7601,25 +7601,55 @@ void CShiftNView::OnDelMH() // DEL / SUPPR key all lines in red
 	int v1;
 	int v2;
 	long farbe;
+
+
 	CDC* pDC;
 	if (mhshowgui) {
 		pDC=GetDC();
 		if ((struktur_vorhanden) && ((afu-afo)>20) && ((afr-afl)>20) && (kf>0.0001)) {
-			k=0;
+			bool nogreenlines = true;
+			k = 0;
 			while (k<struktur_vorhanden) {
 				if (struktur[k]>0) { // Green line
-					get_xy(struktur[k+13],u1,v1);
-					get_xy(struktur[k+14],u2,v2); 
-					u1=afl+(int) (kf*u1);
-					u2=afl+(int) (kf*u2);
-					v1=afu-(int) (kf*v1);
-					v2=afu-(int) (kf*v2);
-					struktur[k]=-3; // Red line
-					farbe=(long) 255;
-					linie(pDC,u1,v1,u2,v2,farbe);
+					nogreenlines = false;
+					break;
 				}
-				k+=headersize+struktur[k+2]+struktur[k+3];
+				k += headersize + struktur[k + 2] + struktur[k + 3];
 			}
+			if (nogreenlines) {
+				k = 0;
+				while (k<struktur_vorhanden) {
+					if (struktur[k]==-3) { // Red line
+						get_xy(struktur[k + 13], u1, v1);
+						get_xy(struktur[k + 14], u2, v2);
+						u1 = afl + (int)(kf*u1);
+						u2 = afl + (int)(kf*u2);
+						v1 = afu - (int)(kf*v1);
+						v2 = afu - (int)(kf*v2);
+						struktur[k] = 1; // Green line
+						farbe = (255 << 8);
+						linie(pDC, u1, v1, u2, v2, farbe);
+					}
+					k += headersize + struktur[k + 2] + struktur[k + 3];
+				}
+			} else {
+				k = 0;
+				while (k<struktur_vorhanden) {
+					if (struktur[k]>0) { // Green line
+						get_xy(struktur[k + 13], u1, v1);
+						get_xy(struktur[k + 14], u2, v2);
+						u1 = afl + (int)(kf*u1);
+						u2 = afl + (int)(kf*u2);
+						v1 = afu - (int)(kf*v1);
+						v2 = afu - (int)(kf*v2);
+						struktur[k] = -3; // Red line
+						farbe = (long)255;
+						linie(pDC, u1, v1, u2, v2, farbe);
+					}
+					k += headersize + struktur[k + 2] + struktur[k + 3];
+				}
+			}
+
 		}
 		ReleaseDC(pDC);
 		globwinkel=0;
@@ -7678,11 +7708,16 @@ void CShiftNView::OnLButtonDown(UINT nFlags, CPoint point)
 				selection_mouse = 1;
 				selection_X1 = x;
 				selection_Y1 = y;
-			}
-			else if (nFlags & MK_SHIFT) {
+			} else if (nFlags & MK_SHIFT) {
 				selection_mouse = 2;
 				selection_X1 = x;
 				selection_Y1 = y;
+			/*
+			} else if (nFlags & MK_ALT) {
+				selection_mouse = 3;
+				selection_X1 = x;
+				selection_Y1 = y;
+			*/
 			} else {
 				if (selection_rect_prec) {
 					pDC->SetROP2(R2_NOTXORPEN);
